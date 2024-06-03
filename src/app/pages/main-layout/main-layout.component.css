@@ -15,6 +15,7 @@
     width:100%;
     height:68px;
     background-color: rgb(240, 9, 9);
+    box-shadow: opx 0px 10px rgba(black,0.15);
     display: flex;
     flex-shrink: 0;
     justify-content: center;
