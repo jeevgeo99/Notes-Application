@@ -11,6 +11,14 @@
   </div>
 
   <div class="notes-list">
-    <app-note-card></app-note-card>
+    <app-note-card
+      *ngFor="let note of notes"
+      [title]="note.title"
+      [body]="note.body"
+    ></app-note-card>
   </div>
+
+  <button class="button floatin-add-bitton is-primary" routerLink="new">
+    + Add
+  </button>
 </div>

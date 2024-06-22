@@ -14,6 +14,20 @@
 .note-card-container .note-card-title{
     font-size: 22px;
     font-weight: bold ;
+    color: purple;
+}
+
+.note-card-container .note-card-body{
+    position: relative;
+    max-height: 80px;
+    overflow: hidden;
+}
+.note-card-container .note-card-body  .fade-out-truncation{
+    position: absolute;
+    bottom:0;
+    height: 50%;
+    width: 100%;
+    
 }
 
 .note-card-container &:hover{
