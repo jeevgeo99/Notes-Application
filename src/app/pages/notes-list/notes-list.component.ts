@@ -17,5 +17,8 @@ notes:Note[] =new Array<Note>();
   this.notes=this.notesService.getAll();
 
   }
+  deleteNote(id:number){
+    this.notesService.delete(id);
+  }
 
 }
